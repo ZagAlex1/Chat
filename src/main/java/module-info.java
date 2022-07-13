@@ -4,6 +4,6 @@ module ru.geekbrains.chat {
 
     requires org.kordamp.bootstrapfx.core;
 
-    opens ru.geekbrains.chat to javafx.fxml;
-    exports ru.geekbrains.chat;
+    opens ru.geekbrains.words to javafx.fxml;
+    exports ru.geekbrains.words;
 }
